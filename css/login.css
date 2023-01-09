@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.universal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.environment {
+    position: absolute;
+    z-index: -1;
+    height: inherit;
+    width: inherit;
+}
+
+.middle-box {
+    height: fit-content;
+    width: 30vw;
+    background-color: rgb(55, 137, 110);
+    z-index: +1;
+    border-radius: 30px;
+    margin-left: 600px;
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.s-box1 {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.s-box2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.remember {
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#login {
+    height: 36px;
+    width: 20vw;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+
+
+}
+
+.s-box3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.forgetting {
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#password {
+    height: 36px;
+    width: 20vw;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+
+.s-box4 {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forget-password {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+.click-here {
+    text-decoration: none;
+    color: white;
+}
+
+.s-box5 {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-in {
+    height: 36px;
+    width: 15vw;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#sign-in:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.follow {
+    height: 6vh;
+    color: white;
+
+}
+
+.here {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+.here:hover {
+    cursor: pointer;
+}
+
+.social {
+    margin: 0px 6px;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width:700px) and (max-width: 1020px) {
+    .middle-box {
+        margin-left: 350px;
+        height: fit-content;
+        width: 45vw;
+    }
+
+    .heading {
+        font-size: 80px;
+    }
+
+    #login {
+        width: 32vw;
+    }
+
+    #password {
+        width: 32vw;
+    }
+}
+@media screen and (min-width:590px) and (max-width: 700px) {
+    .middle-box {
+        margin-left: 240px;
+        height: fit-content;
+        width: 50vw;
+    }
+
+    .heading {
+        font-size: 80px;
+    }
+
+    #login {
+        width: 40vw;
+    }
+
+    #password {
+        width: 40vw;
+    }
+}
+    @media screen and (min-width:400px) and (max-width:590px) {
+        .middle-box {
+            margin-left: 121px;
+            height: fit-content;
+            width: 72vw;     
+        }
+        .heading {
+            font-size: 70px;
+        }
+        #login {
+            width: 55vw;
+        }  
+        #password {
+            width: 55vw;
+        } 
+        #sign-in{
+            width: 35vw;
+        }  
+}
+@media screen and (min-width:280px) and (max-width:400px) {
+    .middle-box {
+        margin-left: 20px;
+        height: fit-content;
+        width: 91vw; 
+        margin-bottom: 260px;    
+    }
+    .heading {
+        font-size: 73px;
+    }
+    #login {
+        width: 75vw;
+        height: 4vh;
+    }  
+    #password {
+        width: 75vw;
+        height: 4vh;
+    } 
+    #sign-in{
+        width: 40vw;
+    }  
+}

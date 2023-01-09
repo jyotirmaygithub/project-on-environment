@@ -1,0 +1,721 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&family=Montserrat:wght@300&family=PT+Sans&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.universal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* i used space around value in this so remember it  */
+}
+
+.universal-2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.universal-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.universal-box {
+    width: 25vw;
+}
+
+.universal-font {
+    font-family: 'Dosis', sans-serif;
+    padding: 0px 60px;
+}
+
+.specifier {
+    display: inline;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+body {
+    width: 100vw;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+
+nav {
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    width: 75vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+header .conservation {
+    text-decoration: none;
+    color: green;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+nav ul .upper {
+    padding: 30px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul .upper :hover {
+    font-weight: lighter;
+    color: rgba(234, 73, 19, 0.347);
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    height: 460vh;
+}
+
+section .heading {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+
+}
+
+section .healthy {
+    text-transform: capitalize;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+/* .waves{
+    height: 70vh;
+} */
+section .bac-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    right: 0;
+}
+
+.article {
+    /* height: 100vh; */
+    background-color: white;
+}
+
+section .our-news {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+section h1.news-heading {
+
+    text-transform: capitalize;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section .news {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+section .news-box {
+    height: 60vh;
+    width: 94%;
+    background-color: white;
+    box-shadow: 1px 2px 8px 3px gray;
+}
+
+/* i am useing this for height and width of images */
+.amazon {
+    height: 25vh;
+    width: 25vw;
+    padding-bottom: 10px;
+}
+
+.amazon-1 {
+    height: 25vh;
+    width: 25vw;
+    padding-bottom: 30px;
+}
+
+/* section h1 .our-goals {
+    font-size: larger;
+} */
+.my-team1 {
+    height: 30vh;
+    margin-bottom: 7vh;
+}
+
+.deforestation {
+    width: 80%;
+    height: 25vh;
+    box-shadow: 1px 2px 8px 3px gray;
+
+}
+
+.writers {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+.line {
+    color: black;
+}
+
+.law-image {
+    height: 80vh;
+}
+
+.constitution {
+    position: absolute;
+    z-index: -1;
+}
+
+.law-proceding {
+    height: inherit;
+}
+
+.father {
+    height: 30vh;
+}
+
+.son {
+    width: 60%;
+}
+
+.penalites {
+    padding-bottom: 10px;
+}
+
+.CONSTITUTIONAL {
+    width: 100%;
+    height: 20vh;
+}
+
+footer {
+    /* background-color: var(#074365); */
+    background-color: rgb(4, 56, 89);
+    height: 34vh;
+}
+
+.box {
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .us {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+footer .policy {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+footer .follow {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.social {
+    padding: 0px 10px;
+
+}
+
+.media {
+    text-decoration: none;
+    color: white;
+}
+
+footer .social :hover {
+    font-weight: bolder;
+    color: black;
+}
+
+footer .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    section .bac-video {
+        height: 75%;
+    }
+
+    section .heading {
+        height: 40vh;
+    }
+
+    section .our-news {
+        height: 20vh;
+    }
+
+    main {
+        height: 410vh;
+    }
+}
+
+@media screen and (min-width: 870px) and (max-width:1000px) {
+    section .news-box {
+        height: 75vh;
+    }
+
+    section .heading {
+        height: 60vh;
+    }
+
+    section .our-news {
+        height: 25vh;
+    }
+
+    section .bac-video {
+        height: 125%;
+    }
+
+    main {
+        height: 410vh;
+    }
+}
+
+@media screen and (min-width:680px) and (max-width:870px) {
+    header {
+        display: grid;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav {
+        height: 18vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header .conservation {
+        font-size: 75px;
+    }
+
+    section .bac-video {
+        height: 85%;
+    }
+
+    section .heading {
+        height: 30vh;
+    }
+
+    section .our-news {
+        height: 25vh;
+    }
+
+    section .news-box {
+        height: 70vh;
+    }
+
+    section h1.news-heading {
+        font-size: 50px;
+    }
+
+    section .healthy {
+        font-size: 84px;
+    }
+
+    .my-team1 {
+        height: 30vh;
+    }
+
+    .deforestation {
+        height: 30vh;
+    }
+
+    main {
+        height: 410vh;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:680px) {
+    header {
+        display: grid;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav {
+        height: 18vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main {
+        height: 650vh;
+    }
+
+    header .conservation {
+        font-size: 65px;
+    }
+
+    section .bac-video {
+        height: 125%;
+    }
+
+    section .heading {
+        height: 60vh;
+    }
+
+    section .healthy {
+        font-size: 67px;
+    }
+
+    .news {
+        height: 200vh;
+        display: flex;
+    }
+
+    .news-box {
+        display: grid;
+    }
+
+    .article {
+        background-color: #f1f1f1;
+    }
+
+    section .news-box {
+        box-shadow: none;
+        width: 80%;
+        height: 180vh;
+    }
+
+    .universal-box {
+        width: 100%;
+    }
+
+    .amazon {
+        width: 80%;
+
+    }
+
+    .amazon-1 {
+        width: 80%;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .full-text-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-container {
+        width: 80%;
+    }
+
+    section h1.news-heading {
+        font-size: 43px;
+    }
+
+    .my-team1 {
+        height: 45vh;
+    }
+
+    .deforestation {
+        height: 45vh;
+    }
+
+    .changing-size-md {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width:370px) and (max-width:500px) {
+    header {
+        display: grid;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav {
+        height: 18vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main {
+        height: 665vh;
+    }
+
+    header .conservation {
+        font-size: 43px;
+    }
+
+    nav ul .upper {
+        padding: 10px;
+    }
+
+    section .bac-video {
+        height: 75%;
+    }
+
+    section .heading {
+        height: 30vh;
+    }
+
+    section .healthy {
+        font-size: 45px;
+    }
+
+    section .our-news {
+        height: 17vh;
+    }
+
+    .news {
+        height: 200vh;
+        display: flex;
+    }
+
+    .news-box {
+        display: grid;
+    }
+
+    .article {
+        background-color: #f1f1f1;
+    }
+
+    section .news-box {
+        box-shadow: none;
+        width: 80%;
+        height: 180vh;
+    }
+
+    .universal-box {
+        width: 100%;
+    }
+
+    .amazon {
+        width: 80%;
+
+    }
+
+    .amazon-1 {
+        width: 80%;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .son {
+        width: 80%;
+    }
+
+    .full-text-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-container {
+        width: 80%;
+    }
+
+    section h1.news-heading {
+        font-size: 30px;
+    }
+
+    .my-team1 {
+        height: 62vh;
+    }
+
+    .deforestation {
+        height: 62vh;
+    }
+
+    .changing-size-md {
+        font-size: 10px
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:370px) {
+    header {
+        display: grid;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav {
+        height: 12vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main {
+        height: 680vh;
+    }
+
+    header .conservation {
+        font-size: 40px;
+    }
+
+    nav ul li a {
+        font-size: 11px;
+    }
+
+    nav ul .upper {
+        padding: 10px;
+    }
+
+    section .bac-video {
+        height: 67%;
+    }
+
+    section .heading {
+        height: 26vh;
+    }
+
+    section .healthy {
+        font-size: 34px;
+    }
+
+    section .our-news {
+        height: 17vh;
+    }
+
+    .news {
+        height: 235vh;
+        display: flex;
+    }
+
+    .news-box {
+        display: grid;
+    }
+
+    .article {
+        background-color: #f1f1f1;
+    }
+
+    section .news-box {
+        box-shadow: none;
+        width: 80%;
+        height: 220vh;
+    }
+
+    .universal-box {
+        width: 100%;
+    }
+
+    .amazon {
+        width: 80%;
+
+    }
+
+    .amazon-1 {
+        width: 80%;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .full-text-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-container {
+        width: 80%;
+    }
+
+    section h1.news-heading {
+        font-size: 26px;
+    }
+
+    .universal-font {
+        padding: 0px 15px;
+    }
+    .son {
+        width: 90%;
+    }
+    .my-team1 {
+        height: 58vh;
+    }
+
+    .deforestation {
+        height: 58vh;
+    }
+
+    .changing-size-md {
+        font-size: 8px
+    }
+    .writers{
+        font-size: 15px;
+    }
+}

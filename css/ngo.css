@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&family=Montserrat:wght@300&family=PT+Sans&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.universal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.universal2 {
+    display: flex;
+    align-items: center;
+}
+
+.universal-font {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.universal-size {
+    font-size: xx-large;
+}
+
+.universal-font-size {
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.margin-1 {
+    margin-left: 30px;
+}
+
+.margin-2 {
+    margin-left: 15px;
+}
+
+.specifier {
+    display: inline;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.logo {
+    height: 15vh;
+    background-color: white;
+
+}
+
+.conservation {
+    text-decoration: none;
+    list-style: none;
+    color: green;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+    margin-left: 40px;
+}
+
+.image-box {
+    height: 70vh;
+}
+
+.trees {
+    /* height: 60vh; */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+
+}
+
+.big-box {
+    z-index: +1;
+    background-color: white;
+}
+
+.heading {
+    height: 20vh;
+}
+
+.collaborate {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+.together {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+/* form here middle box journey is starting */
+
+.head-1 {
+    height: 13vh;
+}
+
+.img-1 {
+    height: 75vh;
+}
+.head-2 {
+    height: 13vh;
+}
+.img-2 {
+    height: 50vh;
+}
+.head-3{
+    height: 13vh;
+}
+.img-3{
+    height: 75vh;
+}
+@media screen and (min-width: 1290px) and (max-width: 1470px) {
+    .img-1{
+        height: 60vh;
+    }
+    .img-2{
+        height: 42vh;
+    }
+    .img-3{
+        height: 60vh;
+    }
+}
+@media screen and (min-width:1050px) and (max-width:1290px) {
+    .image-box{
+        height:60vh;
+    }
+    .img-1{
+        height: 60vh;
+    }
+    .img-2{
+        height: 42vh;
+    }
+    .img-3{
+        height: 60vh;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1050px) {
+    .image-box{
+        height:60vh;
+    }
+    .img-1{
+        height: 60vh;
+    }
+    .img-2{
+        height: 42vh;
+    }
+    .img-3{
+        height: 60vh;
+    }
+}
+@media  screen and (min-width: 300px) and (max-width:500px) {
+    .image-box{
+        height: 28vh;
+    }
+    .conservation{
+        font-size: 48px;
+    }
+    .collaborate{
+        font-size: 23px;
+    }
+    .together{
+        font-size: initial;
+    }
+    .heading{
+        height: 17vh;
+    }
+    .img-1{
+        height: 36vh;
+    }
+    .giving-things{
+        width: 75vw;
+    }
+    .img-2{
+        height: 21vh;
+    }
+    .img-3{
+        height: 23vh;
+    }
+    .trees{
+        height: 60vh;
+    }
+    .enlarge-width{
+        width: 60%;
+    }
+
+}
